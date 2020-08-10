@@ -49,7 +49,7 @@ def add_characters
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
       }
-   }
+   },
    # Write code below that does the following programmatically:
    #
    # - Add an additional :additional_characters key to epic_tragedy and assign it an array as its value
@@ -59,8 +59,7 @@ def add_characters
    # Code your solution here:
    
 epic_tragedy[:additional_characters] = []
-        ]
-end
+
    # After your code, the following line will return the altered hash
   epic_tragedy
 end
